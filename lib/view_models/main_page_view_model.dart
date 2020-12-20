@@ -44,6 +44,6 @@ class MainPageViewModel extends Model {
 
   Future<bool> setReport() async {
     reports = apiSvc?.getReports();
-    return blogs != null;
+    return reports != null;
   }
 }
